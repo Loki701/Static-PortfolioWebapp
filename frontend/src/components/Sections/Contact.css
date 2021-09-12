@@ -1,0 +1,147 @@
+.contact{
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-card{
+    background-color: white;
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 2px 2px 4px #000000;
+    box-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
+
+}
+
+.card-column{
+    height:85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-row{
+    height:100%;
+    width:100%;
+    color: white;
+}
+
+.card-header{
+    height:100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header-title{
+    color:black;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 5px var(--light-gray);
+}
+
+.header-row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.header-row-row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-control{
+    width: 47%;
+    height: 130%;
+    padding: .2rem .5rem;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.form-control:focus{
+    background-color: lightblue;
+    border: 3px solid #555;
+}
+.header-row-text{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.form-control-textarea{
+    width: 100%;
+    padding: .2rem .5rem;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+.header-row-text button{
+    margin-top: .2rem;
+    width: 15%;
+    height: 30%;
+    border-radius: 1rem;
+}
+.header-row-text button:hover{
+    background-color: var(--green);
+    cursor: pointer;
+}
+.card-footer-container{
+    height: 118%;
+    width: 100%;
+    background-color: rgb(19, 192, 178);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-top: solid 1px black;
+}
+.card-footer-title{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.footer-list{
+    list-style: none;
+    text-align: center;
+}
+
+.footer-contact-divider{
+    width: 100%;
+    text-shadow: 2px 2px 5px black;
+}
+
+.footer-social-list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.footer-social-item{
+    text-shadow: 2px 2px 5px black;
+}
+.footer-social-item:hover{
+    color: var(--green);
+    cursor: pointer;
+}
