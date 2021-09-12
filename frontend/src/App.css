@@ -11,8 +11,6 @@
   padding: 0;
 }
 
-.home,
-.projects,
 .skills,
 .experience{
   background-color: var(--light-gray);
