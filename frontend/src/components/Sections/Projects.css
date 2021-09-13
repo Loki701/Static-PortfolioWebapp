@@ -10,7 +10,7 @@ img {vertical-align: middle;}
   width: 100%;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-position: center;
 }
 .projects-container{
@@ -21,6 +21,7 @@ img {vertical-align: middle;}
 .projects-title{
   text-align: center;
   text-shadow: 2px 2px 5px white;
+  margin-bottom: 3rem;
 }
 
 /* Slideshow container */

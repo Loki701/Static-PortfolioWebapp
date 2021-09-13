@@ -12,20 +12,6 @@
   scroll-behavior: smooth;
 }
 
-.skills,
-.experience{
-  background-color: var(--light-gray);
-  display: flex;
-  height: 100vh;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  background-position: center;
-  color: black;
-  font-size: 20px;
-}
-
 
 
 ::-webkit-scrollbar{
