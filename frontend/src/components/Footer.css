@@ -1,4 +1,4 @@
-.Footer{
+.footer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +9,6 @@
     color:white;
     background-color: black;
 }
-.text{
+.footer-text{
     font-size: .8rem;
 }

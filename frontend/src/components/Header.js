@@ -17,7 +17,7 @@ export default function Header() {
     }
     window.addEventListener('resize', handleResize);
     handleResize();
-    if(windowWidth > 1400){
+    if(windowWidth > 900){
         closeMobileMenu();
     }
     return () => window.removeEventListener('resize', handleResize);
@@ -63,15 +63,6 @@ export default function Header() {
                         onClick={closeMobileMenu}
                       >
                         SKILLS
-                      </a>
-                    </li>
-                    <li className='nav-item'>
-                      <a
-                        href="#Experience"
-                        className='nav-links'
-                        onClick={closeMobileMenu}
-                      >
-                        EXPERIENCE
                       </a>
                     </li>
                     <li className='nav-item'>

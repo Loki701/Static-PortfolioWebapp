@@ -4,7 +4,6 @@ import Footer from './components/Footer';
 import Home from './components/Sections/Home';
 import Projects from './components/Sections/Projects';
 import Skills from './components/Sections/Skills';
-import Experience from './components/Sections/Experience';
 import Contact from './components/Sections/Contact';
 
 export default function App() {
@@ -14,8 +13,6 @@ export default function App() {
       <Home />
       <Projects />
       <Skills />
-      <Experience />
-      
       <Contact />
       <Footer />
     </div>

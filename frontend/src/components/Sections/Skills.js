@@ -1,9 +1,10 @@
-export default function Skills(){
-
-    return(
-        <div className='skills'>
-            <a name="Skills" />
-            <p>Skills!</p>
-        </div>
-    );
+export default function Skills() {
+  return (
+    <>
+      <a name="Skills" />
+      <div className="skills">
+        <p>Skills!</p>
+      </div>
+    </>
+  );
 }
